@@ -21,7 +21,7 @@ function MovieDetail({ movie, onClose }) {
             </tr>
             <tr>
               <th>Rating</th>
-              <td>{movie.rating}</td>
+              <td>⭐ {movie.rating} / 10</td>
             </tr>
             <tr>
               <th>Director</th>
@@ -40,7 +40,7 @@ function MovieDetail({ movie, onClose }) {
       </div>
       <div className="card-footer text-end">
         <Button variant="secondary" onClick={onClose}>
-          Close
+          ✖ Close
         </Button>
       </div>
     </div>
